@@ -5,7 +5,7 @@ on:
   push:
     branches: [cds-sample-app]
     paths:
-      - 'samples/cds-sample-application'
+      - 'samples/cds-sample-application/**'
 jobs:
   tests:
     runs-on: ${{ matrix.os }}

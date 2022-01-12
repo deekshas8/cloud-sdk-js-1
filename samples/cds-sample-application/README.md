@@ -1,4 +1,4 @@
-# CAP - SAP Cloud SDK for JS Cloud Foundry End-2-End Application
+# CAP + SAP Cloud SDK for JS Cloud Foundry End-2-End Application
 
 ## Description
 This repository contains a CAP-based application which we use to test the SAP Cloud SDK functionality in a SAP BTP Cloud Foundry environment.

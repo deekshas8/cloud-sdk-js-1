@@ -22,8 +22,15 @@ jobs:
           node-version: ${{ matrix.node-version }}
         env:
           CLOUD_DESTINATION_URL: https://my-destination-url.com
-      - run: | 
-              cd samples/cds-sample-application
-              npm install
-              npm run ci-build
-              npm run test:e2e
+      - name: Install dependencies and build package
+        run:  |
+         cd samples/cds-sample-application
+          npm install
+          npm run ci-build
+      - name: e2e Tests
+        env:
+          CLOUD_DESTINATION_URL: https://my-destination-url.com
+        run:  |
+         cd samples/cds-sample-application
+         npm run test:e2e
+              

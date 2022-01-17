@@ -3,7 +3,7 @@ name: build
 on:
   pull_request: ~
   push:
-    branches: [cds-sample-app]
+    branches: [main]
     paths:
       - 'samples/cds-sample-application/**'
 jobs:

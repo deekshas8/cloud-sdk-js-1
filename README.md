@@ -18,6 +18,7 @@ The samples will serve different purposes:
 The minimal requirements are:
 - A terminal to execute commands
 - A recent version of node and npm installed e.g. node 14 and npm 6
+- 
 - An IDE or a text editor of your choice
 
 If you want to explore the possibilities beyond local tests you need:

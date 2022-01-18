@@ -6,6 +6,9 @@ on:
     branches: [main]
     paths:
       - 'samples/cds-sample-application/**'
+permissions:
+    pull-requests: write
+    contents: write
 jobs:
   tests:
     runs-on: ${{ matrix.os }}

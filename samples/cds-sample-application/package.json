@@ -28,7 +28,7 @@
     "cds-deploy": "cds deploy"
   },
   "dependencies": {
-    "@sap/cds": "^5.9.8",
+    "@sap/cds": "^6.8.1",
     "@sap/cds-dk": "^6.1.5",
     "@sap/cloud-sdk-vdm-business-partner-service": "^1.28.2",
     "@nestjs/common": "^8.4.7",
